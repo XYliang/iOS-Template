@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  健康口袋
+//
+//  Created by 薛银亮 on 16/2/18.
+//  Copyright © 2016年 薛银亮. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//分类
+#import "UIView+Extension.h"
+#import "UIColor+Extension.h"
+#import "UIImage+Extension.h"
+
+//其他
+#import "CommenMacro.h"
+#import "XYLConst.h"
+
+
+#endif /* PrefixHeader_pch */
