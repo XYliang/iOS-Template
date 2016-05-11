@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYLFileterView : UIView
+@protocol XYLFileterViewDelegate <NSObject>
 
+@optional
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath withId:(NSNumber *)ID ;
+
+@end
+
+@interface XYLFileterView : UIView
+/**
+ *  全部分类的tableView
+ */
+@property(nonatomic, strong) UITableView *tableViewOfGroup;
+
+/**
+ *  每组详情的tableView
+ */
+@property(nonatomic, strong) UITableView *tableViewOfDetail;
+@property (nonatomic, weak) id <XYLFileterViewDelegate> delegate;
 @end

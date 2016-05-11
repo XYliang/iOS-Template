@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XYLStyleTitleView;
+@protocol XYLStyleTitleViewDelegate <NSObject>
 
+-(void)styleTitleView:(XYLStyleTitleView *)styleTitleView didSelectedWithButtonTitle:(NSString *)buttonTitle;
+
+@end
 @interface XYLStyleTitleView : UIView
+/**高度*/
+@property (nonatomic, assign) CGFloat height;
 
+@property(weak, nonatomic)UILabel *titleLabel;
+@property(strong, nonatomic)NSArray *buttonsArray;
+
+@property(weak, nonatomic)id<XYLStyleTitleViewDelegate> delegate;
+//+(instancetype)styleTitleView:(NSString *)titleString frame:(CGRect)frame withButtonDataArray:(NSArray *)buttonDataArray;
++(instancetype)styleTitleView:(NSString *)titleString withButtonDataArray:(NSArray *)buttonDataArray;
 @end

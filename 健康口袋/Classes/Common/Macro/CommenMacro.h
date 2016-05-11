@@ -10,13 +10,14 @@
 #define ios7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
 
 //获取RGB颜色
+#define ColorA(r, g, b, a)                    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define Color(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-
+#define NavigationBarColor [UIColor getColor:@"00CC99"]
 // 自定义Log
 #ifdef DEBUG
-#define SDLog(...) NSLog(@"%s %d %@",__func__, __LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#define NSLog(...) NSLog(@"%s %d %@",__func__, __LINE__,[NSString stringWithFormat:__VA_ARGS__])
 #else
-#define SDLog(...)
+#define NSLog(...)
 #endif
 
 // 7.常用的对象
@@ -36,3 +37,12 @@
 
 //字体
 #define Font(number) [UIFont systemFontOfSize:number]
+
+//加载xib
+#define xibView(xibName) [[[NSBundle mainBundle]loadNibNamed:xibName owner:nil options:nil] firstObject]
+
+//加载plist数组
+#define plistArray(plistName)  [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]pathForResource:plistName ofType:@"plist"]]
+
+#define image(imageName) [UIImage imageNamed:imageName]
+

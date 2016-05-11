@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		28E98F661C7DEE9200CDC69B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F651C7DEE9200CDC69B /* main.m */; };
 		28E98F691C7DEE9200CDC69B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F681C7DEE9200CDC69B /* AppDelegate.m */; };
-		28E98F6C1C7DEE9200CDC69B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F6B1C7DEE9200CDC69B /* ViewController.m */; };
-		28E98F6F1C7DEE9200CDC69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E98F6D1C7DEE9200CDC69B /* Main.storyboard */; };
 		28E98F711C7DEE9200CDC69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E98F701C7DEE9200CDC69B /* Assets.xcassets */; };
 		28E98F741C7DEE9200CDC69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E98F721C7DEE9200CDC69B /* LaunchScreen.storyboard */; };
 		28E98F7F1C7DEE9200CDC69B /* XYLHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F7E1C7DEE9200CDC69B /* XYLHorizontalScrollTests.m */; };
 		28E98F8A1C7DEE9200CDC69B /* XYLHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F891C7DEE9200CDC69B /* XYLHorizontalScrollUITests.m */; };
+		28E98F991C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F981C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.m */; };
+		28E98F9C1C7DFD0F00CDC69B /* XYLHorizontalScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98F9B1C7DFD0F00CDC69B /* XYLHorizontalScrollController.m */; };
+		28E98F9E1C7E05F200CDC69B /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E98F9D1C7E05F200CDC69B /* Products.plist */; };
+		28E98FA51C7E064800CDC69B /* XYLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98FA01C7E064800CDC69B /* XYLCollectionViewCell.m */; };
+		28E98FA61C7E064800CDC69B /* XYLProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98FA21C7E064800CDC69B /* XYLProductObject.m */; };
+		28E98FA71C7E064800CDC69B /* XYLProductObjectFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E98FA41C7E064800CDC69B /* XYLProductObjectFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		28E98F651C7DEE9200CDC69B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E98F671C7DEE9200CDC69B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28E98F681C7DEE9200CDC69B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28E98F6A1C7DEE9200CDC69B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28E98F6B1C7DEE9200CDC69B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28E98F6E1C7DEE9200CDC69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28E98F701C7DEE9200CDC69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E98F731C7DEE9200CDC69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E98F751C7DEE9200CDC69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,17 @@
 		28E98F851C7DEE9200CDC69B /* XYLHorizontalScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYLHorizontalScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E98F891C7DEE9200CDC69B /* XYLHorizontalScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYLHorizontalScrollUITests.m; sourceTree = "<group>"; };
 		28E98F8B1C7DEE9200CDC69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E98F971C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLHoriaontalScrollCell.h; sourceTree = "<group>"; };
+		28E98F981C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLHoriaontalScrollCell.m; sourceTree = "<group>"; };
+		28E98F9A1C7DFD0F00CDC69B /* XYLHorizontalScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLHorizontalScrollController.h; sourceTree = "<group>"; };
+		28E98F9B1C7DFD0F00CDC69B /* XYLHorizontalScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLHorizontalScrollController.m; sourceTree = "<group>"; };
+		28E98F9D1C7E05F200CDC69B /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		28E98F9F1C7E064800CDC69B /* XYLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLCollectionViewCell.h; sourceTree = "<group>"; };
+		28E98FA01C7E064800CDC69B /* XYLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLCollectionViewCell.m; sourceTree = "<group>"; };
+		28E98FA11C7E064800CDC69B /* XYLProductObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLProductObject.h; sourceTree = "<group>"; };
+		28E98FA21C7E064800CDC69B /* XYLProductObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLProductObject.m; sourceTree = "<group>"; };
+		28E98FA31C7E064800CDC69B /* XYLProductObjectFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLProductObjectFrame.h; sourceTree = "<group>"; };
+		28E98FA41C7E064800CDC69B /* XYLProductObjectFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLProductObjectFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,19 @@
 		28E98F631C7DEE9200CDC69B /* XYLHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
+				28E98F9D1C7E05F200CDC69B /* Products.plist */,
+				28E98F9A1C7DFD0F00CDC69B /* XYLHorizontalScrollController.h */,
+				28E98F9B1C7DFD0F00CDC69B /* XYLHorizontalScrollController.m */,
 				28E98F671C7DEE9200CDC69B /* AppDelegate.h */,
 				28E98F681C7DEE9200CDC69B /* AppDelegate.m */,
-				28E98F6A1C7DEE9200CDC69B /* ViewController.h */,
-				28E98F6B1C7DEE9200CDC69B /* ViewController.m */,
-				28E98F6D1C7DEE9200CDC69B /* Main.storyboard */,
+				28E98F971C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.h */,
+				28E98F981C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.m */,
+				28E98F9F1C7E064800CDC69B /* XYLCollectionViewCell.h */,
+				28E98FA01C7E064800CDC69B /* XYLCollectionViewCell.m */,
+				28E98FA11C7E064800CDC69B /* XYLProductObject.h */,
+				28E98FA21C7E064800CDC69B /* XYLProductObject.m */,
+				28E98FA31C7E064800CDC69B /* XYLProductObjectFrame.h */,
+				28E98FA41C7E064800CDC69B /* XYLProductObjectFrame.m */,
 				28E98F701C7DEE9200CDC69B /* Assets.xcassets */,
 				28E98F721C7DEE9200CDC69B /* LaunchScreen.storyboard */,
 				28E98F751C7DEE9200CDC69B /* Info.plist */,
@@ -245,7 +265,7 @@
 			files = (
 				28E98F741C7DEE9200CDC69B /* LaunchScreen.storyboard in Resources */,
 				28E98F711C7DEE9200CDC69B /* Assets.xcassets in Resources */,
-				28E98F6F1C7DEE9200CDC69B /* Main.storyboard in Resources */,
+				28E98F9E1C7E05F200CDC69B /* Products.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E98F6C1C7DEE9200CDC69B /* ViewController.m in Sources */,
+				28E98FA61C7E064800CDC69B /* XYLProductObject.m in Sources */,
+				28E98FA51C7E064800CDC69B /* XYLCollectionViewCell.m in Sources */,
+				28E98F9C1C7DFD0F00CDC69B /* XYLHorizontalScrollController.m in Sources */,
+				28E98F991C7DEF2A00CDC69B /* XYLHoriaontalScrollCell.m in Sources */,
 				28E98F691C7DEE9200CDC69B /* AppDelegate.m in Sources */,
 				28E98F661C7DEE9200CDC69B /* main.m in Sources */,
+				28E98FA71C7E064800CDC69B /* XYLProductObjectFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		28E98F6D1C7DEE9200CDC69B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28E98F6E1C7DEE9200CDC69B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28E98F721C7DEE9200CDC69B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYLHorizontalScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.30pay.seb.XYLHorizontalScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYLHorizontalScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.30pay.seb.XYLHorizontalScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";

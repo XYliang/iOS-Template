@@ -7,7 +7,7 @@
 //
 
 //按钮图标所占按钮中的高度的比例
-#define XYLTabBarButtonImageRatio 0.6
+#define XYLTabBarButtonImageRatio 0.65
 //按钮默认的颜色
 #define XYLTabBarButtonTitleColor (ios7 ? [UIColor getColor:@"949494"]: [UIColor getColor:@"949494"])
 //按钮选中的颜色
@@ -21,12 +21,12 @@
 {
     if (self = [super initWithFrame:frame]) {
         
-        self.imageView.contentMode = UIViewContentModeCenter;
+        self.imageView.contentMode = UIViewContentModeBottom;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         self.titleLabel.font = Font(11);
         [self setTitleColor:XYLTabBarButtonTitleColor forState:UIControlStateNormal];
         [self setTitleColor:XYLTabBarButtonTitleSelectedColor forState:UIControlStateSelected];
-        [self setBackgroundColor:[UIColor getColor:@"E4E4E4"]];
+        [self setBackgroundColor:[UIColor getColor:@"FFFFFF"]];
     }
     return  self;
 }
@@ -35,7 +35,7 @@
 {
     CGFloat imageW = contentRect.size.width;
     CGFloat imageH = contentRect.size.height * XYLTabBarButtonImageRatio;
-    return CGRectMake(0, 3, imageW, imageH);
+    return CGRectMake(0, 0, imageW, imageH);
 }
 
 -(CGRect)titleRectForContentRect:(CGRect)contentRect
@@ -61,7 +61,7 @@
 //释放KVO监听
 -(void)dealloc
 {
-    [self.item removeObserver:self forKeyPath:@"badgeValue"];
+//    [self.item removeObserver:self forKeyPath:@"badgeValue"];
     [self.item removeObserver:self forKeyPath:@"title"];
     [self.item removeObserver:self forKeyPath:@"image"];
     [self.item removeObserver:self forKeyPath:@"selectedImage"];

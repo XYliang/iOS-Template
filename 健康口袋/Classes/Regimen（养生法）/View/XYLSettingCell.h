@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class XYLSettingItem;
+
 @interface XYLSettingCell : UITableViewCell
+
+@property(nonatomic, strong) XYLSettingItem *item;
+
++ (instancetype)cellWithTableView:(UITableView *) tableView;
 
 @end

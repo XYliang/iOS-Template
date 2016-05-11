@@ -33,16 +33,17 @@
     CGSize moneySize = [self sizeWithString:_product.name font:MountFont maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
     CGFloat moneyLabelH = moneySize.height;
     CGFloat moneyLabelW = moneySize.width;
-    CGFloat moneyLabelY = CGRectGetMaxY(self.nameF) + 5;
+    CGFloat moneyLabelY = CGRectGetMaxY(self.nameF) + SmallMargin;
     self.moneyF = CGRectMake(moneyLabelX, moneyLabelY, moneyLabelW, moneyLabelH);
     //销量的fame
     CGSize   mountSize = [self sizeWithString:_product.name font:MountFont maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
     CGFloat mountLabelH = mountSize.height;
     CGFloat mountLabelW = mountSize.width;
-    CGFloat mountLabelY =  CGRectGetMaxY(self.nameF) + 5;
+    CGFloat mountLabelY =  CGRectGetMaxY(self.nameF) + SmallMargin;
     CGFloat mountLabelX =  iconW - 5 - mountLabelW;
     self.amountF = CGRectMake(mountLabelX, mountLabelY, mountLabelW, mountLabelH);
-    self.cellHeight = CGRectGetMaxY(self.amountF) + 5;
+    self.cellHeight = CGRectGetMaxY(self.amountF) + SmallMargin;
+    self.cellWidth = iconW;
 }
 
 

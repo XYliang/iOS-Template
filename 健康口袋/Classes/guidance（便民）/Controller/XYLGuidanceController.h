@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYLGuidanceController : UITableViewController
+@interface XYLGuidanceController : UIViewController
 
 @end

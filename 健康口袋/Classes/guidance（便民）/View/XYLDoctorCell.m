@@ -7,17 +7,38 @@
 //
 
 #import "XYLDoctorCell.h"
+#import "XYLDoctorObject.h"
 
 @implementation XYLDoctorCell
 
-- (void)awakeFromNib {
-    // Initialization code
++ (instancetype)cellWithTableView:(UITableView *)tableView
+{
+    static NSString *ID = @"doctorCell";
+    XYLDoctorCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"XYLDoctorCell" owner:nil options:nil] lastObject];
+    }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+-(void)setDoctorObject:(XYLDoctorObject *)doctorObject
+{
+    _doctorObject = doctorObject;
+    
+    self.doctorName.text = doctorObject.doctorName;
+    self.doctorHospital.text = doctorObject.doctorHospital;
+    self.doctorPrice.text = doctorObject.doctorPrice;
+    self.doctorWorkTime.text = doctorObject.doctorWorkTime;
+    UIImage *image = [UIImage imageNamed:doctorObject.doctorIcon];
+    self.doctorIcon.image = [UIImage createRoundedRectImage:image];
+}
 
-    // Configure the view for the selected state
+-(void)setFrame:(CGRect)frame
+{
+    frame.origin.y+=10;
+    frame.size.height-=10;
+    [super setFrame:frame];
 }
 
 @end

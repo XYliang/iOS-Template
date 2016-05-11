@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XYLSendProductCell;
+@class XYLStyleTitleView;
+@protocol XYLSendProductCellDelegate <NSObject>
+
+-(void)sendProductCellWithSelectedWithButtonTitle:(NSString *)buttonTitle;
+
+@end
 
 @interface XYLSendProductCell : UITableViewCell
 
+
+@property (nonatomic, assign) CGFloat cellHeight;
+@property(strong, nonatomic)NSArray *dataArray;
+@property(strong, nonatomic)XYLStyleTitleView *styleTitleView;
+
+@property(weak, nonatomic)id<XYLSendProductCellDelegate> delegate;
++ (instancetype)cellWithTableView:(UITableView *)tableView withTitleString:(NSString *)titleString withDataArray:(NSArray *)dataArray;
 @end

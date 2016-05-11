@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XYLGoodsDetailController">
             <connections>
+                <outlet property="goodsDetailScrollerView" destination="O4S-kg-m7Z" id="ddO-zj-Nbx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O4S-kg-m7Z">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVc-gP-fMo">
+                    <rect key="frame" x="15" y="612" width="345" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PaZ-o4-EwA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="购买" backgroundImage="导航栏背景">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="O4S-kg-m7Z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7Rx-JN-w1D"/>
+                <constraint firstAttribute="trailing" secondItem="OVc-gP-fMo" secondAttribute="trailing" constant="15" id="AZ4-qM-Jbc"/>
+                <constraint firstAttribute="trailing" secondItem="O4S-kg-m7Z" secondAttribute="trailing" id="GjI-tP-G20"/>
+                <constraint firstItem="O4S-kg-m7Z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZAX-qN-KfN"/>
+                <constraint firstAttribute="bottom" secondItem="O4S-kg-m7Z" secondAttribute="bottom" id="f13-xB-Sh5"/>
+                <constraint firstItem="OVc-gP-fMo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="jf0-eP-KGw"/>
+                <constraint firstAttribute="bottom" secondItem="OVc-gP-fMo" secondAttribute="bottom" constant="15" id="nv3-dl-6Bh"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="428.5" y="406.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="导航栏背景" width="320" height="20"/>
+    </resources>
 </document>

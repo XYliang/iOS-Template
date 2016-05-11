@@ -10,4 +10,8 @@
 
 @interface XYLArticleBottomView : UIView
 
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIButton *likeButton;
+@property (weak, nonatomic) IBOutlet UIButton *shareButton;
+
 @end

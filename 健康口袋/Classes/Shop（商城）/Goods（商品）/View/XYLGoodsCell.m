@@ -10,14 +10,22 @@
 
 @implementation XYLGoodsCell
 
-- (void)awakeFromNib {
-    // Initialization code
+-(void)setGoods:(XYLGoods *)goods
+{
+    _goods = goods;
+    self.goodsImageView.image = [UIImage imageNamed:goods.goodsImageStr];
+    self.goodsNameLabel.text = goods.goodsNameStr;
+    self.goodsPriceLabel.text = goods.goodsPriceStr;
+    self.goodsmountsLabel.text = goods.goodsMountsStr;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
++(instancetype)cellWithTableView:(UITableView *)tableView forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *goodsCellID = @"goodsCellID";
+    XYLGoodsCell *cell = [tableView dequeueReusableCellWithIdentifier:goodsCellID];
+    if (!cell) {
+        cell = xibView(@"XYLGoodsCell");
+    }
+    return cell;
 }
-
 @end

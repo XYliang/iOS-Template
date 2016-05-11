@@ -10,4 +10,6 @@
 
 @interface XYLSelectController : UITableViewController
 
+/** 存储全部cell的数据 */
+@property(nonatomic, strong) NSMutableArray *data;
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XYLTopTextView : UIView
+@property (weak, nonatomic) IBOutlet UITextView *topTextView;
 
 @end

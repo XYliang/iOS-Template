@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XYLTextObject.h"
 
 @interface XYLTextObjectFrame : NSObject
+
+@property(assign,nonatomic) CGRect cellTitleF;
+@property(assign,nonatomic) CGRect cellImageViewF;
+@property(assign,nonatomic) CGRect cellTextViewF;
+@property(assign,nonatomic) CGFloat cellHeight;
+@property(strong, nonatomic)XYLTextObject *textObject;
 
 @end

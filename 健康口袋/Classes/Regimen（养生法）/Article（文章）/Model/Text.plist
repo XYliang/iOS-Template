@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Text.plist
-   健康口袋
-
-   Created by 薛银亮 on 16/3/3.
-   Copyright (c) 2016年 薛银亮. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>title</key>
+		<string>1、合理安排</string>
+		<key>imageStr</key>
+		<string>IMG_1635.JPG</string>
+		<key>textStr</key>
+		<string>运动量的安排是健身中最重要的一点。实践证明，瘦子应器械重量以中等负荷为佳。时间安排可每周练3、4次，每次每组动作做3、4组开始，慢慢增加重量。以最后两次必须用全力才能完成的动作，对肌肉组织刺激较深，超量恢复明显，锻炼效果极佳。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>2、量力而行</string>
+		<key>imageStr</key>
+		<string>IMG_1636.JPG</string>
+		<key>textStr</key>
+		<string>锻炼的器材有一定的重量，不仅锻炼的前后要做好准备活动和整理活动。而且要注意检查器材安装得是否牢固，以防不测。锻炼时要注意重量是否适度，切勿做力所不能及的练习。使用杠铃等重器械时，要有人保护。最好是结伴锻炼，以便相互鼓励，相互帮助，相互保护。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>3、针对练习</string>
+		<key>imageStr</key>
+		<string>IMG_1637.JPG</string>
+		<key>textStr</key>
+		<string>瘦子经过2到3个月的锻炼后，体力会明显增强，精力也会比以前充沛。这是，应重点锻炼大群肌肉，比如胸大肌、三角肌、肱二头肌、肱三头肌、背阔肌、臀大肌和股四头肌等，运动量要随时调整。同一个部位的肌群也应该采用不同的动作、不同的器械进行锻炼，并且要使所练肌肉群单独收缩。随着肌肉力量的啬和动作协调性的提高，锻炼的效果会越来越显著。坚持半年到一年，体型会发生明显的变化。</string>
+	</dict>
+</array>
 </plist>

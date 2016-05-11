@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class XYLMyController;
 @interface XYLMyDetailController : UITableViewController
-
+/** 头部视图高度约束对象 */
+@property (nonatomic, strong)  NSLayoutConstraint *headViewHCons;
+@property(strong, nonatomic)XYLMyController *parentController;
 @end

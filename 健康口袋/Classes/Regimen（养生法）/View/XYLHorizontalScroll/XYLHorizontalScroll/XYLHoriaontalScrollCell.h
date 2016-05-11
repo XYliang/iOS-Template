@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XYLHoriaontalScrollCell : UITableViewCell
-
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+@property(strong, nonatomic)NSArray *dataArray;
 @end

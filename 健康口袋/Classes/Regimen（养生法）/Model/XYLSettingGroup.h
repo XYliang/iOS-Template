@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface XYLSettingGroup : NSObject
+/** 每个group的cell数据 */
+@property(nonatomic, strong) NSArray *items;
 
+/** 头部标题 */
+@property(nonatomic, copy) NSString *headerTitle;
+
+/** 尾部标题 */
+@property(nonatomic, copy) NSString *tailTitle;
 @end

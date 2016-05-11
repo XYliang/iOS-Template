@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface XYLDoctorObject : NSObject
-
+@property (nonatomic, copy) NSString *doctorHospital; // 价格
+@property (nonatomic, copy) NSString *doctorPrice; // 图标
+@property (nonatomic, copy) NSString *doctorName; // 名字
+@property (nonatomic, copy) NSString *doctorWorkTime; // 销量
+@property (nonatomic, copy) NSString *doctorIcon;
 @end

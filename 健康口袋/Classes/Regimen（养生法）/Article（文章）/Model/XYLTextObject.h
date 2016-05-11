@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface XYLTextObject : NSObject
-
+@property(copy, nonatomic)NSString *title;
+@property(copy, nonatomic)NSString *imageStr;
+@property(copy, nonatomic)NSString *textStr;
+-(instancetype)initWithDict:(NSDictionary *)dict;
++(instancetype)textObjectWithDictionary:(NSDictionary *)dict;
 @end

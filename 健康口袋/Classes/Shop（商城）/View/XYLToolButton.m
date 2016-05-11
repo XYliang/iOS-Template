@@ -7,15 +7,38 @@
 //
 
 #import "XYLToolButton.h"
+//按钮图标所占按钮中的高度的比例
+#define ButtonImageRatio 0.5
 
 @implementation XYLToolButton
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame])
+    {
+        self.imageView.contentMode = UIViewContentModeCenter;
+        self.titleLabel.textAlignment = NSTextAlignmentLeft;
+        self.titleLabel.font = Font(12);
+        [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    }
+    return  self;
 }
-*/
+
+
+-(CGRect)imageRectForContentRect:(CGRect)contentRect
+{
+    CGFloat imageW = contentRect.size.width * ButtonImageRatio;
+    CGFloat imageH = contentRect.size.height;
+    return CGRectMake(0, 0, imageW, imageH);
+}
+
+-(CGRect)titleRectForContentRect:(CGRect)contentRect
+{
+    CGFloat titleX = contentRect.size.width * ButtonImageRatio;
+    CGFloat titleW = contentRect.size.width * ButtonImageRatio;
+    CGFloat titleH = contentRect.size.height;
+    return CGRectMake(titleX, 0, titleW, titleH);
+}
+
 
 @end

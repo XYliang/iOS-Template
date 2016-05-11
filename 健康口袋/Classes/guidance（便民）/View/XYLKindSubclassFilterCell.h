@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class XYLGuidanceGroupObject;
 @interface XYLKindSubclassFilterCell : UITableViewCell
-
++(instancetype)cellWithTableView:(UITableView *)tableView indexPath:(NSIndexPath*)indexPath model:(XYLGuidanceGroupObject *)model;
 @end

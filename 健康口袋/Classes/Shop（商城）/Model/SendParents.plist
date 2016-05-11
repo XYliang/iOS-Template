@@ -1,14 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   SendParents.plist
-   健康口袋
-
-   Created by 薛银亮 on 16/2/25.
-   Copyright (c) 2016年 薛银亮. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>iconString</key>
+		<string>按摩</string>
+		<key>titleString</key>
+		<string>按摩</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>血压</string>
+		<key>titleString</key>
+		<string>高血压</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>睡眠</string>
+		<key>titleString</key>
+		<string>失眠</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>颈椎</string>
+		<key>titleString</key>
+		<string>颈椎</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>腰椎</string>
+		<key>titleString</key>
+		<string>腰椎</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>缺钙</string>
+		<key>titleString</key>
+		<string>缺钙</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>保健内衣</string>
+		<key>titleString</key>
+		<string>保健内衣</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>老寒腿</string>
+		<key>titleString</key>
+		<string>老寒腿</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>气管炎</string>
+		<key>titleString</key>
+		<string>气管炎</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>心脏</string>
+		<key>titleString</key>
+		<string>心脏</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>糖尿病</string>
+		<key>titleString</key>
+		<string>糖尿病</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>其他</string>
+		<key>titleString</key>
+		<string>其他</string>
+	</dict>
+</array>
 </plist>

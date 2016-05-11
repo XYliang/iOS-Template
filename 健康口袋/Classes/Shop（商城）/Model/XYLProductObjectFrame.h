@@ -17,6 +17,7 @@
 @property(assign,nonatomic) CGRect amountF;
 @property(assign,nonatomic) CGRect moneyF;
 @property (nonatomic, assign) CGFloat cellHeight;
+@property (nonatomic, assign) CGFloat cellWidth;
 @property (nonatomic, strong) XYLProductObject *product;
 
 @end

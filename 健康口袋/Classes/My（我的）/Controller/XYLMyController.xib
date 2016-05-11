@@ -1,15 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XYLMyController">
+            <connections>
+                <outlet property="contentView" destination="RBU-0m-GQL" id="6pn-fk-ekM"/>
+                <outlet property="headImageView" destination="FDO-LB-OY4" id="3mS-rQ-EaK"/>
+                <outlet property="headViewHCons" destination="ElB-5Q-yfW" id="M2h-ee-c0g"/>
+                <outlet property="view" destination="iN0-l3-epB" id="dEO-bX-bqT"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBU-0m-GQL" userLabel="容器视图，存放子控制器View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgg-Wd-peN" userLabel="头部视图">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="导航栏背景" translatesAutoresizingMaskIntoConstraints="NO" id="dHL-71-PkO" userLabel="背景">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                            <animations/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FDO-LB-OY4" userLabel="头像">
+                            <rect key="frame" x="148" y="80" width="80" height="80"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Odw-rw-3U5"/>
+                                <constraint firstAttribute="width" constant="80" id="fj0-LS-Kt1"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="ElB-5Q-yfW"/>
+                        <constraint firstItem="FDO-LB-OY4" firstAttribute="centerY" secondItem="Xgg-Wd-peN" secondAttribute="centerY" id="FD2-zg-XRD"/>
+                        <constraint firstItem="FDO-LB-OY4" firstAttribute="leading" secondItem="Xgg-Wd-peN" secondAttribute="leading" constant="40" id="NPU-FL-5Pn"/>
+                        <constraint firstItem="FDO-LB-OY4" firstAttribute="centerX" secondItem="Xgg-Wd-peN" secondAttribute="centerX" id="VYA-PC-Iwy"/>
+                        <constraint firstItem="dHL-71-PkO" firstAttribute="top" secondItem="Xgg-Wd-peN" secondAttribute="top" id="XD8-Vd-TIg"/>
+                        <constraint firstAttribute="trailing" secondItem="dHL-71-PkO" secondAttribute="trailing" id="cyf-wX-rB2"/>
+                        <constraint firstItem="dHL-71-PkO" firstAttribute="leading" secondItem="Xgg-Wd-peN" secondAttribute="leading" id="hjt-EB-14Q"/>
+                        <constraint firstAttribute="bottom" secondItem="FDO-LB-OY4" secondAttribute="bottom" constant="35" id="w3t-eW-MHt"/>
+                        <constraint firstAttribute="bottom" secondItem="dHL-71-PkO" secondAttribute="bottom" id="y8p-tV-DvU"/>
+                        <constraint firstItem="FDO-LB-OY4" firstAttribute="centerX" secondItem="Xgg-Wd-peN" secondAttribute="centerX" id="zwK-a9-0Mg"/>
+                        <constraint firstAttribute="bottom" secondItem="FDO-LB-OY4" secondAttribute="bottom" constant="40" id="zxc-Rb-zhD"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="FD2-zg-XRD"/>
+                            <exclude reference="NPU-FL-5Pn"/>
+                            <exclude reference="VYA-PC-Iwy"/>
+                            <exclude reference="w3t-eW-MHt"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Xgg-Wd-peN" secondAttribute="trailing" id="0nC-j5-Ofn"/>
+                <constraint firstItem="Xgg-Wd-peN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2GM-vM-oEq"/>
+                <constraint firstItem="RBU-0m-GQL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DtD-ob-EIN"/>
+                <constraint firstAttribute="bottom" secondItem="RBU-0m-GQL" secondAttribute="bottom" id="GnN-72-aIN"/>
+                <constraint firstItem="Xgg-Wd-peN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="M8A-mN-dNg"/>
+                <constraint firstAttribute="trailing" secondItem="RBU-0m-GQL" secondAttribute="trailing" id="pHp-Zs-HHm"/>
+                <constraint firstItem="RBU-0m-GQL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uZt-oH-duw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
         </view>
     </objects>
+    <resources>
+        <image name="导航栏背景" width="320" height="20"/>
+    </resources>
 </document>

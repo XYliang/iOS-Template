@@ -13,7 +13,11 @@ UIKIT_EXTERN NSString *const BaseURL;
 
 /**导航栏的高度*/
 UIKIT_EXTERN CGFloat const NavHeight;
+/**状态栏高度*/
+UIKIT_EXTERN CGFloat const StatusBarH;
 /**小间距*/
 UIKIT_EXTERN CGFloat const SmallMargin;
 /**大间距*/
 UIKIT_EXTERN CGFloat const MaxMargin;
+/** 标题栏的高度 */
+UIKIT_EXTERN CGFloat const TitlesViewH;

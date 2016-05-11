@@ -1,14 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Goods.plist
-   健康口袋
-
-   Created by 薛银亮 on 16/3/4.
-   Copyright (c) 2016年 薛银亮. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+	<dict>
+		<key>goodsImageStr</key>
+		<string>lvcha3</string>
+		<key>goodsNameStr</key>
+		<string>平利胶股蓝龙须茶</string>
+		<key>goodsPriceStr</key>
+		<string>¥64</string>
+		<key>goodsMountsStr</key>
+		<string>月售7900份</string>
+		<key>goodsEfficacyStr</key>
+		<string>茶叶成分对人体的生理、药理功效是多种多样的,归纳起来主要有如下八大保健作用:
+　　1、兴奋作用:茶叶的咖啡碱能兴奋中枢神经系统,帮助人们振奋精神、增进思维、消除疲劳、提高工作效率。
+
+　　2、利尿作用:茶叶中的咖啡碱和茶碱具有利尿作用,用于治疗水肿、水滞瘤。利用红茶糖水的解毒、利尿作用能治疗急性黄疸型肝炎。
+
+　　3、强心解痉作用:咖啡碱具有强心、解痉、松弛平滑肌的功效,能解除支气管痉挛,促进血液循环,是治疗支气管哮喘、止咳化痰、心肌梗塞的良好辅助药物。</string>
+		<key>goodsAllopathyStr</key>
+		<string>润肺止咳，宁心安神，还能减轻胃疼，同时也具有一定的排毒、美容养颜的功效</string>
+		<key>goodsCrowdsStr</key>
+		<string>10岁以上
+</string>
+		<key>goodsNotesStr</key>
+		<string>茶虽好，但在晚上睡觉前不能大量饮用，以免造成失眠</string>
+	</dict>
+</array>
 </plist>

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYLHorizontalScrollController : UITableView
+@interface XYLHorizontalScrollController : UITableViewController
 
 @end

@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface XYLButtonDataObject : NSObject
-
+@property(copy, nonatomic)NSString *iconString;
+@property(copy, nonatomic)NSString  *titleString;
+- (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)objectWithDict:(NSDictionary *)dict;
 @end

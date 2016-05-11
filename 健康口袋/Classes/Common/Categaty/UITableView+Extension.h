@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UITableView (Extension)
-
++ (UITableView *)initWithTableView:(CGRect)frame withDelegate:(id)delegate;
 @end

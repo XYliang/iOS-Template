@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYLMyController : UITableViewController
+@interface XYLMyController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *headImageView;
+- (void)logout;
 @end

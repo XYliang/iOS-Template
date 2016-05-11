@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XYLRegimenController : UIViewController
-
+@property(strong, nonatomic)NSArray *imagesArray;
+@property(strong, nonatomic)NSArray *titlesArray;
 @end

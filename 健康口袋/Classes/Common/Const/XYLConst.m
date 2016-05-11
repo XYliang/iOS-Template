@@ -12,7 +12,11 @@
 NSString *const BaseURL = @"http://www.baidu.com";
 /**导航栏的高度*/
 CGFloat const NavHeight = 44;
+/**状态栏高度*/
+CGFloat const StatusBarH = 20;
 /**小间距*/
 CGFloat const SmallMargin = 5;
 /**大间距*/
 CGFloat const MaxMargin = 10;
+/** 标题栏的高度 */
+CGFloat const TitlesViewH = 35;

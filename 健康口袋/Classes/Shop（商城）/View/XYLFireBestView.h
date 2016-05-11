@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XYLProductObject, XYLFireBestView;
+
+@protocol  XYLFireBestViewDelegate<NSObject>
+-(void)fireBestView:(XYLFireBestView *)fireBestView  productObject:(XYLProductObject *)productObject;
+@end
 
 @interface XYLFireBestView : UIView
+@property(weak, nonatomic)id<XYLFireBestViewDelegate> delegate;
 @property(strong, nonatomic)NSArray *dataArray;
 @end

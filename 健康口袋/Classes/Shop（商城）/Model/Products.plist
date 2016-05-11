@@ -6,9 +6,29 @@
 		<key>name</key>
 		<string>平利绞股蓝龙须茶</string>
 		<key>money</key>
-		<string>64</string>
+		<string>135</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha1.jpg</string>
+		<key>amount</key>
+		<string>最近7000笔</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>平利绞股蓝龙须茶</string>
+		<key>money</key>
+		<string>34</string>
+		<key>icon</key>
+		<string>lvcha2</string>
+		<key>amount</key>
+		<string>最近7000笔</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>平利绞股蓝龙须茶</string>
+		<key>money</key>
+		<string>766</string>
+		<key>icon</key>
+		<string>lvcha3</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -18,7 +38,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -28,7 +48,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -38,7 +58,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -48,7 +68,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -58,7 +78,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -68,7 +88,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -78,7 +98,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -88,7 +108,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -98,7 +118,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>
@@ -108,27 +128,7 @@
 		<key>money</key>
 		<string>64</string>
 		<key>icon</key>
-		<string>girl</string>
-		<key>amount</key>
-		<string>最近7000笔</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>平利绞股蓝龙须茶</string>
-		<key>money</key>
-		<string>64</string>
-		<key>icon</key>
-		<string>girl</string>
-		<key>amount</key>
-		<string>最近7000笔</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>平利绞股蓝龙须茶</string>
-		<key>money</key>
-		<string>64</string>
-		<key>icon</key>
-		<string>girl</string>
+		<string>lvcha</string>
 		<key>amount</key>
 		<string>最近7000笔</string>
 	</dict>

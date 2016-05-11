@@ -47,6 +47,9 @@
         amountLabel.textColor = [UIColor lightGrayColor];
         [self.contentView addSubview:amountLabel];
         self.amountLabel = amountLabel;
+        
+        self.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"商品背景"]];
+        
     }
     return self;
 }
@@ -57,7 +60,6 @@
     XYLCollectionViewCell *collectionCell = [collectionView dequeueReusableCellWithReuseIdentifier:cellCollectionID forIndexPath:indexPath];
     return collectionCell;
 }
-
 
 -(void)setProductFrame:(XYLProductObjectFrame *)productFrame
 {

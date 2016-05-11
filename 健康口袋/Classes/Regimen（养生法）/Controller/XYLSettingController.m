@@ -7,6 +7,11 @@
 //
 
 #import "XYLSettingController.h"
+#import "XYLSettingItem.h"
+#import "XYLSettingGroup.h"
+#import "XYLArrowSettingItem.h"
+#import "XYLSwitchSettingItem.h"
+#import "XYLLabelSettingItem.h"
 
 @interface XYLSettingController ()
 
@@ -14,24 +19,41 @@
 
 @implementation XYLSettingController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    // 设置标题
+    self.title = @"设置";
+    
+    // 配置数据
+    [self setupGroup0];
+    [self setupGroup1];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) setupGroup0
+{
+    XYLSettingItem *activeItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"运动"];
+    XYLSettingItem *zhogyiItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"中医"];
+    XYLSettingItem *poolItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"煲汤"];
+    XYLSettingItem *zhenjiuItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"针灸"];
+    XYLSettingItem *shiliaoItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"食疗"];
+    
+    XYLSettingGroup *group = [[XYLSettingGroup alloc] init];
+    group.items = @[activeItem, zhogyiItem, poolItem, zhenjiuItem, shiliaoItem];
+    
+    [self.data addObject:group];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void) setupGroup1
+{
+    XYLSettingItem *manItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"男性"];
+    XYLSettingItem *womanItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"女性"];
+    XYLSettingItem *childrenItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"小孩"];
+    XYLSettingItem *oldmanItem = [XYLSwitchSettingItem itemWithIcon:nil title:@"老人"];
+    
+    XYLSettingGroup *group = [[XYLSettingGroup alloc] init];
+    group.items = @[manItem, womanItem, childrenItem, oldmanItem];
+    [self.data addObject:group];
 }
-*/
 
 @end

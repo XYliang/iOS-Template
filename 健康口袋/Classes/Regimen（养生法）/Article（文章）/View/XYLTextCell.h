@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYLTextObjectFrame.h"
 
 @interface XYLTextCell : UITableViewCell
 
+@property(strong, nonatomic)XYLTextObjectFrame *textObjectFrame;
+
++(instancetype)cellWithTableView:(UITableView *)tableView cellForItemAtIndexPath:(NSIndexPath *)indexPath;
 @end

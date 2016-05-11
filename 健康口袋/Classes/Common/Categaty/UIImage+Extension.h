@@ -16,4 +16,7 @@
 
 +(UIImage *)resizableImage:(NSString *)name;
 
++ (UIImage *)imageWithColor:(UIColor *)color;
+//创建圆形图片
++ (id)createRoundedRectImage:(UIImage*)image;
 @end

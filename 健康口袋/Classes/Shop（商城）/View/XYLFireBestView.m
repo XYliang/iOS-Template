@@ -4,12 +4,13 @@
 //
 //  Created by 薛银亮 on 16/2/24.
 //  Copyright © 2016年 薛银亮. All rights reserved.
-//
+//  包装最热产品的collectionview
 
 #import "XYLFireBestView.h"
 #import "XYLProductObjectFrame.h"
 #import "XYLProductObject.h"
 #import "XYLCollectionViewCell.h"
+
 
 @interface XYLFireBestView()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
@@ -24,7 +25,7 @@
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         flowLayout.minimumInteritemSpacing = 5.0f;
-        UICollectionView *collectionVeiw = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, frame.size.height) collectionViewLayout:flowLayout];
+        UICollectionView *collectionVeiw = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height) collectionViewLayout:flowLayout];
         collectionVeiw.backgroundColor = [UIColor whiteColor];
         collectionVeiw.showsHorizontalScrollIndicator = NO;
         [self addSubview:collectionVeiw];
@@ -50,13 +51,17 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"%ld",indexPath.row);
+    if ([self.delegate conformsToProtocol:@protocol(XYLFireBestViewDelegate) ] &&  [self.delegate respondsToSelector:@selector(fireBestView:productObject:)]) {
+        [self.delegate fireBestView:self productObject:self.dataArray[indexPath.row]];
+    }
 }
 
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(140, self.frame.size.height);
+    XYLProductObjectFrame *frame = self.dataArray[indexPath.row];
+    return CGSizeMake(frame.cellWidth, frame.cellHeight);
 }
+
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
     return 10;

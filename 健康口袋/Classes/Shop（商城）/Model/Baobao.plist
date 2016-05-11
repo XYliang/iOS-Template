@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>iconString</key>
+		<string>脐风</string>
+		<key>titleString</key>
+		<string>脐风</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>吐奶</string>
+		<key>titleString</key>
+		<string>吐奶</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>夜啼</string>
+		<key>titleString</key>
+		<string>夜啼</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>关节脱臼</string>
+		<key>titleString</key>
+		<string>关节脱臼</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>尿床</string>
+		<key>titleString</key>
+		<string>尿床</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>腹泻</string>
+		<key>titleString</key>
+		<string>腹泻</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>自汗</string>
+		<key>titleString</key>
+		<string>自汗</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>发热</string>
+		<key>titleString</key>
+		<string>发热</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>脱水</string>
+		<key>titleString</key>
+		<string>脱水</string>
+	</dict>
+	<dict>
+		<key>iconString</key>
+		<string>出牙期不适</string>
+		<key>titleString</key>
+		<string>出牙期不适</string>
+	</dict>
+</array>
+</plist>

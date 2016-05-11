@@ -8,7 +8,7 @@
 
 #import "XYLNavigationController.h"
 
-@interface XYLNavigationController ()
+@interface XYLNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -31,7 +31,11 @@
     [navBar setBarTintColor:[UIColor getColor:@"00CC99"]];
     
     //状态栏背景颜色
-//    [navBar setBackgroundImage:[UIImage imageWithName:@"状态栏背景"] forBarMetrics:UIBarMetricsDefault];
+    [navBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [navBar setBackgroundImage:[UIImage imageWithColor:[UIColor getColor:@"00CC99"]]
+                       forBarPosition:UIBarPositionAny
+                           barMetrics:UIBarMetricsDefault];
+    [navBar setShadowImage:[UIImage new]];
     //状态栏保持颜色
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
@@ -61,12 +65,38 @@
     [item setTitleTextAttributes:textAttrs forState:UIControlStateHighlighted];
 }
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.interactivePopGestureRecognizer.delegate = self;
+}
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [btn setTitleColor:Color(251, 32, 37) forState:UIControlStateHighlighted];
+        [btn setImage:[UIImage imageNamed:@"whiteBackArrow"] forState:UIControlStateNormal];
+        btn.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+        [btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+        [btn sizeToFit];
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
     }
     [super pushViewController:viewController animated:animated];
+}
+
+-(void)back
+{
+    [self popViewControllerAnimated:YES];
+}
+
+-(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (self.childViewControllers.count > 1) {
+        return YES;
+    }
+    return NO;
 }
 
 @end

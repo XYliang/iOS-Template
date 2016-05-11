@@ -4,12 +4,12 @@
 //
 //  Created by 薛银亮 on 16/2/24.
 //  Copyright © 2016年 薛银亮. All rights reserved.
-//
+//  可以横向滑动的tableviewcell
 
 #import "XYLHorizantorScrollCell.h"
 #import "XYLFireBestView.h"
 
-@interface XYLHorizantorScrollCell()
+@interface XYLHorizantorScrollCell()<XYLFireBestViewDelegate>
 @property(weak, nonatomic)XYLFireBestView *fireBestView;
 @end
 
@@ -29,7 +29,8 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        XYLFireBestView *fireBestView = [[XYLFireBestView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+        XYLFireBestView *fireBestView = [[XYLFireBestView alloc]initWithFrame:CGRectMake(0, 10, [UIScreen mainScreen].bounds.size.width, 200)];
+        fireBestView.delegate = self;
         [self.contentView addSubview:fireBestView];
         self.fireBestView = fireBestView;
     }
@@ -40,6 +41,14 @@
 {
     _dataArray = dataArray;
     self.fireBestView.dataArray = _dataArray;
+}
+
+-(void)fireBestView:(XYLFireBestView *)fireBestView productObject:(XYLProductObject *)productObject
+{
+    if ([self.delegate conformsToProtocol:@protocol(XYLHorizantorScrollCellDelegate) ] &&  [self.delegate respondsToSelector:@selector(horizantorScrollCell:productObject:)]) {
+        [self.delegate horizantorScrollCell:self productObject:productObject];
+    }
+
 }
 
 @end

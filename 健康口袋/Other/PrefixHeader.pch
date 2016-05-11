@@ -14,10 +14,15 @@
 #import "UIView+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIImage+Extension.h"
+#import "UITableView+Extension.h"
+#import "NSString+Extension.h"
+#import "NSDate+Extension.h"
 
 //其他
+#import "ACMacros.h"
 #import "CommenMacro.h"
 #import "XYLConst.h"
-
-
+#import "SVProgressHUD.h"
+#import "XYLCommon.h"
+#import <BmobSDK/Bmob.h>
 #endif /* PrefixHeader_pch */

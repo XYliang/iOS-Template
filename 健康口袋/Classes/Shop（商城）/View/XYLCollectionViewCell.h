@@ -4,7 +4,7 @@
 //
 //  Created by 薛银亮 on 16/2/24.
 //  Copyright © 2016年 薛银亮. All rights reserved.
-//
+// 最热产品的cell
 
 #import <UIKit/UIKit.h>
 @class XYLProductObjectFrame;

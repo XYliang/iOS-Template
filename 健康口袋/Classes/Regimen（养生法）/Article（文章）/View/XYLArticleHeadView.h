@@ -10,4 +10,7 @@
 
 @interface XYLArticleHeadView : UIView
 
+@property (weak, nonatomic) IBOutlet UIImageView *titleImageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end

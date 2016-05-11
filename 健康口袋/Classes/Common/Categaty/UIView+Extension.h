@@ -19,6 +19,9 @@
 
 +(instancetype)viewLoadNib;
 
+// 判断View是否显示在屏幕上
+- (BOOL)isDisplayedInScreen;
+
 /** 水平居中 */
 - (void)alignHorizontal;
 

@@ -12,8 +12,11 @@
 #import "XYLGuidanceController.h"
 #import "XYLMyController.h"
 #import "XYLTabBar.h"
+#import "XYLSettingLoveController.h"
+#import "TGLGuillotineMenu.h"
+#import "XYLTransitionObject.h"
 
-@interface XYLTabBarController ()<XYLTabBarDelegate>
+@interface XYLTabBarController ()<XYLTabBarDelegate, TGLGuillotineMenuDelegate,UITabBarControllerDelegate>
 @property(weak, nonatomic)XYLTabBar *xylTabBar;
 @end
 
@@ -21,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.delegate = self;
     //添加自定义的tabbar
     [self setupTabbar];
     //添加所有子控制器
@@ -43,15 +47,43 @@
     self.selectedIndex = to;
 }
 
+-(id<UIViewControllerAnimatedTransitioning>)tabBarController:(UITabBarController *)tabBarController animationControllerForTransitionFromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
+{
+    XYLTransitionObject *transitionObject = [[XYLTransitionObject alloc]init];
+    transitionObject.tabBarController = self;
+    return transitionObject;
+}
+
 #pragma mark添加所有子控制器
 -(void)setupAllChildViewController
 {
     XYLHomeController *homeController = [[XYLHomeController alloc]init];
     XYLGuidanceController *guidanceController = [[XYLGuidanceController alloc]init];
-    XYLMyController *myController = [[XYLMyController alloc]init];
+    XYLMyController *myController = [[XYLMyController alloc]initWithNibName:@"XYLMyController" bundle:nil];
+    XYLSettingLoveController  *settingLoveController   = [[XYLSettingLoveController alloc] init];
+    NSArray *vcArray        = [[NSArray alloc] initWithObjects:myController, settingLoveController, nil];
+    NSArray *titlesArray    = [[NSArray alloc] initWithObjects:@"我的", @"设置", nil];
+    NSArray *imagesArray    = [[NSArray alloc] initWithObjects:@"ic_feed", @"ic_settings", nil];
+    TGLGuillotineMenu *menuVC = [[TGLGuillotineMenu alloc] initWithViewControllers:vcArray MenuTitles:titlesArray andImagesTitles:imagesArray andStyle:TGLGuillotineMenuStyleCollection];
+    menuVC.delegate = self;
+    
     [self setupChildViewController:homeController title:@"首页" imageName:@"Home_F" selectedImageName:@"Home_L"];
     [self setupChildViewController:guidanceController title:@"便民" imageName:@"convenient2_F" selectedImageName:@"convenient2_L"];
-    [self setupChildViewController:myController title:@"我的" imageName:@"user_L" selectedImageName:@"user_F"];
+    [self setupChildViewController:menuVC title:@"我的" imageName:@"user_L" selectedImageName:@"user_F"];
+}
+
+#pragma mark - Guillotine Menu Delegate
+
+-(void)selectedMenuItemAtIndex:(NSInteger)index{
+    NSLog(@"Selected menu item at index %ld", index);
+}
+
+-(void)menuDidOpen{
+    NSLog(@"Menu did Open");
+}
+
+-(void)menuDidClose{
+    NSLog(@"Menu did Close");
 }
 
 /**初始化一个子控件 */
